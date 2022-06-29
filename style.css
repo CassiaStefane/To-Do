@@ -1,0 +1,51 @@
+html{
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin-top: 100px;
+}
+#conteiner{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+}
+#input-element{
+    width: 210px;
+    height: 40px;
+}
+.todo{
+    border: 1px solid rgb(154, 121, 221);
+    margin: 10px auto;
+    width: 350px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.todo i{
+    background-color: rgb(154, 121, 221);
+    color: #fff;
+    padding: 5px;
+}
+#btn{
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: rgb(154, 121, 221);
+}
+.erro{
+    border: 2px solid red;
+}
+.erro::placeholder{
+    color: red;
+}
