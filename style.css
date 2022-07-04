@@ -9,27 +9,31 @@ html{
 body{
     text-align: center;
     margin-top: 100px;
+    background-color: rgb(41, 21, 44);
 }
 #conteiner{
     display: flex;
     justify-content: space-between;
     width: 350px;
     padding: 30px;
-    border: 1px solid black;
+    border: 2px dashed rgb(95, 91, 95);
     border-radius: 10px;
     margin: auto;
 }
 #input-element{
     width: 210px;
     height: 40px;
+    margin: 8px;
 }
 .todo{
-    border: 1px solid rgb(154, 121, 221);
+    border: 2px solid rgb(154, 121, 221);
     margin: 10px auto;
     width: 350px;
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    color: #fff;
+
 }
 .todo i{
     background-color: rgb(154, 121, 221);
@@ -38,9 +42,10 @@ body{
 }
 #btn{
     width: 70px;
-    height: 40px;
-    border-radius: 10px;
+    height: 50px;
+    border-radius: 30px;
     cursor: pointer;
+    border-bottom-right-radius: 0%;
     border-color: rgb(154, 121, 221);
 }
 .erro{
@@ -48,4 +53,8 @@ body{
 }
 .erro::placeholder{
     color: red;
+}
+.completa {
+    text-decoration: line-through;
+    color: rgb(154, 121, 221);
 }
