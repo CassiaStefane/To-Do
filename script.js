@@ -71,6 +71,8 @@ const updateStorage = () =>{
 const refreshStorage = () =>{
     const taskStorage = JSON.parse(localStorage.getItem('task'));
 
+    if(!taskStorage) return;
+
     for (const task of taskStorage){
         const itemTarefa = document.createElement('div');
     itemTarefa.classList.add('todo');
